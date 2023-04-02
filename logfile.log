@@ -1,0 +1,41 @@
+2023-04-02T12:56:56.658+05:30  INFO 17602 --- [main] c.e.pons.EventManagementApplication      : Starting EventManagementApplication using Java 17.0.5 with PID 17602 (/Users/ponshankar/Documents/workspace/SpringCourse/EventManagement/target/classes started by ponshankar in /Users/ponshankar/Documents/workspace/SpringCourse/EventManagement)
+2023-04-02T12:56:56.661+05:30  INFO 17602 --- [main] c.e.pons.EventManagementApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-04-02T12:56:57.251+05:30  INFO 17602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-02T12:56:57.297+05:30  INFO 17602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-04-02T12:56:57.730+05:30  INFO 17602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-02T12:56:57.736+05:30  INFO 17602 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-02T12:56:57.736+05:30  INFO 17602 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-02T12:56:57.857+05:30  INFO 17602 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-02T12:56:57.857+05:30  INFO 17602 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2023-04-02T12:56:57.984+05:30  INFO 17602 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-02T12:56:58.014+05:30  INFO 17602 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-02T12:56:58.130+05:30  INFO 17602 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-02T12:56:58.249+05:30  INFO 17602 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fc7fa6e
+2023-04-02T12:56:58.250+05:30  INFO 17602 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-02T12:56:58.288+05:30  INFO 17602 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-02T12:56:58.762+05:30  INFO 17602 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-02T12:56:58.767+05:30  INFO 17602 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T12:56:59.091+05:30  WARN 17602 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-02T12:56:59.407+05:30  INFO 17602 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60256d1b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24b4f4a, org.springframework.security.web.context.SecurityContextHolderFilter@3c29f6be, org.springframework.security.web.header.HeaderWriterFilter@43255f91, org.springframework.security.web.authentication.logout.LogoutFilter@141eb85b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a5b1af7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c5c0306, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7388486e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d8a1456, org.springframework.security.web.access.ExceptionTranslationFilter@75882ac2, org.springframework.security.web.access.intercept.AuthorizationFilter@4daead88]
+2023-04-02T12:56:59.626+05:30  INFO 17602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-02T12:56:59.636+05:30  INFO 17602 --- [main] c.e.pons.EventManagementApplication      : Started EventManagementApplication in 3.393 seconds (process running for 9.05)
+2023-04-02T12:57:15.569+05:30  INFO 17602 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-02T12:57:15.571+05:30  INFO 17602 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-02T12:57:15.574+05:30  INFO 17602 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-02T12:57:15.771+05:30  INFO 17602 --- [http-nio-8080-exec-1] c.e.pons.controller.HomeController       : Getting list of events
+2023-04-02T13:00:27.363+05:30  INFO 17602 --- [http-nio-8080-exec-2] c.e.pons.controller.HomeController       : IPL Event Created !!!!!!!!!
+2023-04-02T13:01:00.855+05:30  INFO 17602 --- [http-nio-8080-exec-6] c.e.pons.controller.HomeController       : IPL Event Created !!!!!!!!!
+2023-04-02T13:02:54.190+05:30  INFO 17602 --- [http-nio-8080-exec-9] c.e.pons.controller.HomeController       : IPL Event Created !!!!!!!!!
+2023-04-02T13:04:05.655+05:30  INFO 17602 --- [http-nio-8080-exec-1] c.e.pons.controller.HomeController       : IPL Event Created !!!!!!!!!
+2023-04-02T13:04:11.039+05:30  INFO 17602 --- [http-nio-8080-exec-4] c.e.pons.controller.HomeController       : Getting list of events
+2023-04-02T13:04:29.324+05:30  INFO 17602 --- [http-nio-8080-exec-5] c.e.pons.controller.HomeController       : Deleting the attendee
+2023-04-02T13:04:43.258+05:30  INFO 17602 --- [http-nio-8080-exec-2] c.e.pons.controller.HomeController       : Getting List of Attendees
+2023-04-02T13:05:29.406+05:30  INFO 17602 --- [http-nio-8080-exec-6] c.e.pons.controller.HomeController       : Registering the Attendee
+2023-04-02T13:06:23.253+05:30  INFO 17602 --- [http-nio-8080-exec-7] c.e.pons.controller.HomeController       : Registering the Attendee
+2023-04-02T13:06:34.139+05:30  INFO 17602 --- [http-nio-8080-exec-8] c.e.pons.controller.HomeController       : Getting List of Attendees
+2023-04-02T13:07:25.361+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-02T13:07:25.377+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-02T13:07:25.379+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-02T13:07:25.403+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-02T13:07:25.407+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-02T13:07:25.416+05:30  INFO 17602 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
